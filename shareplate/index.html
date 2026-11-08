@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SHAREPLATE — Think before you waste.</title>
+<meta property="og:title" content="SHAREPLATE: Think before you waste."><meta property="og:description" content="What you don't need today could become someone's meal today. Share more. Waste less."><meta property="og:type" content="website">
+<meta name="description" content="SHAREPLATE brings donors, volunteers and NGOs together to make sharing suitable surplus food easier across Karnataka.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lora:ital,wght@0,500;0,600;1,500&family=Noto+Sans+Kannada:wght@400;700&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%2714%27 fill=%27%23344C3D%27/%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%278%27 fill=%27none%27 stroke=%27%23C5A66A%27 stroke-width=%273%27/%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/platform.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" defer></script>
+<script src="js/script.js" defer></script>
+<script src="js/platform.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav" id="nav">
+  <a class="logo" href="#home">SHARE<b>PLATE</b></a>
+  <button class="burger" aria-expanded="false" aria-controls="menu" aria-label="Menu"><span></span></button>
+  <nav id="menu" aria-label="Main">
+    <a href="#home">Home</a><a href="#challenge">The Challenge</a><a href="#approach">Our Approach</a><a href="#how">How It Works</a><a href="#stories">Stories</a><a href="#platform">Platform</a><a href="#involve">Get Involved</a><button type="button" class="lang" id="lang">ಕನ್ನಡ</button>
+  </nav>
+</header>
+
+<main id="main">
+<section class="hero" id="home">
+  <video autoplay muted loop playsinline preload="metadata" poster="assets/images/hero-poster.jpg" aria-hidden="true"><source src="assets/videos/shareplate-hero.mp4" type="video/mp4"></video>
+  <button class="vctl" type="button" aria-pressed="false">Pause video</button>
+  <div class="hero-in">
+    <p class="eyebrow">SHAREPLATE · Karnataka, India</p>
+    <h1>Think before you waste.</h1>
+    <p class="lead">What you don't need today could become someone's meal today.</p>
+    <p>Bringing donors, volunteers and community organisations together to make food sharing more accessible.</p>
+    <div class="btns"><a class="btn pri" href="#involve" data-role="donor">Share Food</a><a class="btn ghost" href="#challenge">Discover Our Mission</a></div>
+  </div>
+</section>
+
+<section class="sec" id="challenge" data-stage="0">
+  <div class="split">
+    <div>
+      <h2>Food is wasted. Needs remain.</h2>
+      <p>Every day, food prepared with care can go unused. At the same time, many individuals and communities face difficulties accessing regular, nutritious meals.</p>
+      <p class="big">The challenge is not always a lack of food. Sometimes it is the gap between available food and the people who could benefit from it.</p>
+      <dl class="trio">
+        <div><dt>Surplus after service</dt><dd>Restaurants, hotels, events and households can have suitable food left over.</dd></div>
+        <div><dt>Limited connections</dt><dd>Donors and distribution organisations don't always have an effective way to find each other.</dd></div>
+        <div><dt>Time and coordination</dt><dd>Food is perishable. Collection and distribution must happen promptly and responsibly.</dd></div>
+      </dl>
+    </div>
+    <figure class="ph tall"><img src="assets/images/challenge.jpg" alt="Rows of packed meal boxes tied in clear bags, ready for collection" loading="lazy"></figure>
+  </div>
+  <p class="pull">Between food that goes unused and people who need it, there is an opportunity to connect.</p>
+</section>
+
+<section class="sec tint" id="approach" data-stage="1">
+  <h2>Let's make sharing easier.</h2>
+  <p class="big">SHAREPLATE is built around a simple idea: connect those with suitable surplus food to organisations and communities that can put it to good use.</p>
+  <svg class="hub" viewBox="0 0 800 210" role="img" aria-label="Donors, NGO partners, volunteers and communities connected through SHAREPLATE">
+    <g stroke="#344C3D" stroke-width="2" fill="none"><path d="M144 70h112M344 70h112M544 70h112" stroke-dasharray="6 6"/><path d="M100 114v34M300 114v34M500 114v34M700 114v34"/></g>
+    <g fill="#F4F1E8" stroke="#B66D4B" stroke-width="2"><circle cx="100" cy="70" r="44"/><circle cx="300" cy="70" r="44"/><circle cx="500" cy="70" r="44"/><circle cx="700" cy="70" r="44"/></g>
+    <g font-family="DM Sans,sans-serif" font-size="13" font-weight="700" fill="#344C3D" text-anchor="middle"><text x="100" y="75">Donors</text><text x="300" y="75">NGO partners</text><text x="500" y="75">Volunteers</text><text x="700" y="75">Communities</text></g>
+    <rect x="30" y="148" width="740" height="46" fill="#344C3D"/><text x="400" y="177" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="#F4F1E8">CONNECTED THROUGH SHAREPLATE</text>
+  </svg>
+  <ol class="roles">
+    <li><h3>Food donors</h3><p>Restaurants, hotels, event organisers and households who list suitable surplus food.</p></li>
+    <li><h3>NGO partners</h3><p>Organisations that help reach communities and coordinate responsible distribution.</p></li>
+    <li><h3>Volunteers</h3><p>People who support coordination and timely collection.</p></li>
+    <li><h3>Communities</h3><p>People and groups who benefit from food-sharing initiatives.</p></li>
+  </ol>
+  <p class="note">Food safety, appropriate packaging, timely collection and responsible distribution come first. No partnerships are claimed here; this is a concept for a Karnataka launch.</p>
+</section>
+
+<section class="sec" id="how" data-stage="2">
+  <h2>From surplus to shared meals.</h2>
+  <ol class="steps">
+    <li><span>1</span><h3>SHARE</h3><p>Donors provide details about suitable surplus food.</p></li>
+    <li><span>2</span><h3>CONNECT</h3><p>A suitable NGO or community partner is identified.</p></li>
+    <li><span>3</span><h3>COLLECT</h3><p>Collection and transportation are coordinated.</p></li>
+    <li><span>4</span><h3>DISTRIBUTE</h3><p>Food reaches its intended community through responsible distribution.</p></li>
+  </ol>
+
+  <div class="journey" id="journey">
+    <p class="demo">Illustrative demonstration · not real activity</p>
+    <h3>The Share Journey: 25 portions from a Bengaluru restaurant</h3>
+    <p class="meta">Donor: neighbourhood restaurant · Donation: 25 meal portions · Partner: illustrative NGO · Collection: volunteer coordination · Destination: illustrative community distribution point</p>
+    <div class="tabs" role="tablist" aria-label="Donation journey stages"></div>
+    <div class="jpanel" role="tabpanel" aria-live="polite">
+      <figure class="ph"><img id="jimg" src="assets/images/journey-1.jpg" alt="" loading="lazy"></figure>
+      <div><p class="status" id="jstatus"></p><h4 id="jtitle"></h4><p id="jtext"></p><div class="bar"><i id="jbar"></i></div></div>
+    </div>
+  </div>
+
+  <aside class="check" aria-labelledby="chk">
+    <h3 id="chk">Before you share</h3>
+    <ul>
+      <li><label><input type="checkbox"> Is the food suitable for donation?</label></li>
+      <li><label><input type="checkbox"> Has it been stored appropriately?</label></li>
+      <li><label><input type="checkbox"> Is it safely packaged?</label></li>
+      <li><label><input type="checkbox"> Is preparation and storage information available?</label></li>
+      <li><label><input type="checkbox"> Can collection happen within an appropriate timeframe?</label></li>
+    </ul>
+    <p class="count" id="count" aria-live="polite">0 of 5 considered</p>
+    <p class="note">This is an awareness prompt, not a certification. Food safety must be assessed by the donor and the receiving organisation under applicable food-safety requirements.</p>
+  </aside>
+</section>
+
+<section id="stories">
+  <div class="sec dark" data-stage="3">
+    <h2>Stories of Change</h2>
+    <p class="big">Every meal has a story. Discover how SharePlate transforms surplus food into smiles across communities.</p>
+    <p class="demo">Illustrative · AI-generated videos · not real donations or partners</p>
+  </div>
+  <div id="sgrid"><noscript><p class="sec">Please enable JavaScript to watch the stories.</p></noscript></div>
+  <div class="sec dark"><p class="tag">SharePlate – Turning Surplus into Smiles. Every Meal Matters.</p></div>
+</section>
+
+<section class="sec tint" id="platform">
+  <h2>The SharePlate Platform</h2>
+  <p class="big">A working demonstration of food redistribution: list, match, claim and track food. Everything here runs in your browser on sample data.</p>
+  <p class="demo">Demo Data · stored only in your browser · not real activity</p>
+  <div id="stats" class="stats"></div>
+  <div id="roleBar" class="rbar"></div>
+  <div id="ptabs" class="ptabs" role="tablist" aria-label="Platform sections"></div>
+  <div id="pbody" class="pbody" role="tabpanel"></div>
+  <dialog id="pm"><div class="pmw"><button type="button" class="pmx" aria-label="Close">&times;</button><h3 id="pmt"></h3><div id="pmb"></div></div></dialog>
+</section>
+
+<section class="sec" id="features">
+  <h2>Turning good intentions into meaningful action.</h2>
+  <ul class="feat">
+    <li><h3>Food donation coordination</h3><p>A simple way for donors to communicate available surplus food.</p></li>
+    <li><h3>NGO partnerships</h3><p>Connections with organisations that can coordinate responsible distribution.</p></li>
+    <li><h3>Pickup coordination</h3><p>Support for organising collection and transport in good time.</p></li>
+    <li><h3>Community participation</h3><p>Ways for volunteers, donors and organisations to take part.</p></li>
+  </ul>
+</section>
+
+<section class="sec tint" id="impact">
+  <h2>Every shared meal begins with a choice.</h2>
+  <p class="big">Food sharing is not only about the food transferred. It is about responsible consumption, stronger connections and a culture where usable food is valued.</p>
+  <div class="themes"><p>Reducing avoidable food waste</p><p>Strengthening community connections</p><p>Encouraging responsible food sharing</p></div>
+  <div class="goals"><p class="demo">Illustrative pilot goals · targets, not achieved results</p>
+    <ul><li><b data-count="1000">1,000</b><span>meal portions routed towards sharing in a first six-month pilot</span></li><li><b data-count="10">10</b><span>NGO and community partners to connect with</span></li><li><b data-count="100">100</b><span>donors and volunteers taking part</span></li></ul></div>
+  <ol class="flow" aria-label="How a donation could move through the network (illustrative)"><li>Donor</li><li>NGO partner</li><li>Volunteer</li><li>Community</li></ol>
+  <p class="note">These are impact goals and an illustrative flow, not verified results. No statistics are claimed.</p>
+  <p class="tag">A shared responsibility. A more nourished community.</p>
+  <form class="calc" id="calc"><p class="demo">Illustrative estimate · not verified impact</p>
+    <label for="portions">Example number of meal portions</label>
+    <input id="portions" type="number" min="1" max="5000" value="25">
+    <p id="calcout" aria-live="polite"></p>
+  </form>
+</section>
+
+<section class="sec" id="involve" data-stage="4">
+  <h2>Be part of the sharing movement.</h2>
+  <p class="big">Whether you are a restaurant, household, volunteer or organisation, your participation can help make food sharing more accessible.</p>
+  <div class="paths">
+    <div><h3>Donate food</h3><p>For restaurants, households and event organisers.</p><a class="btn pri" href="#join" data-role="donor">Donate Food</a></div>
+    <div><h3>Volunteer</h3><p>Support food-sharing coordination with your time.</p><a class="btn pri" href="#join" data-role="volunteer">Become a Volunteer</a></div>
+    <div><h3>Partner with us</h3><p>For NGOs, community organisations and institutions.</p><a class="btn pri" href="#join" data-role="ngo">Partner With Us</a></div>
+  </div>
+  <form id="join" class="form" novalidate>
+    <p class="demo">Demonstration · saved only in this browser</p>
+    <div class="f sel"><label for="utype">I am a</label><select id="utype"><option value="donor">Food Donor</option><option value="ngo">NGO / Community Organisation</option><option value="volunteer">Volunteer</option><option value="event">Event Organiser</option></select></div>
+    <div class="grid" id="fields"></div>
+    <button class="btn pri" type="submit">Submit</button>
+    <p class="ok" id="ok" role="status" tabindex="-1"></p>
+  </form>
+</section>
+
+<section class="close">
+  <h2>Food is meant to be shared, not wasted.</h2>
+  <p>Think before you waste. Share what you can. Together, we can help good food find its way to people who need it.</p>
+  <a class="btn gold" href="#involve">Start Sharing</a>
+</section>
+</main>
+
+<footer>
+  <div><a class="logo" href="#home">SHARE<b>PLATE</b></a><p>Food is meant to be shared, not wasted. A concept initiative for Karnataka.</p></div>
+  <nav aria-label="Footer"><a href="#challenge">The Challenge</a><a href="#approach">Our Approach</a><a href="#how">How It Works</a><a href="#stories">Stories</a><a href="#platform">Platform</a><a href="#involve">Get Involved</a><a href="#home">Back to top</a></nav>
+  <p>Contact: [placeholder email] · [placeholder phone]<br>Social links: to be added.</p>
+  <small>© 2026 SHAREPLATE. Demonstration project; no partnerships or endorsements are claimed.</small>
+</footer>
+<dialog id="vmodal" aria-labelledby="vtitle"><div class="vbox">
+  <button type="button" class="vclose" aria-label="Close video">&times;</button>
+  <video id="vplayer" controls playsinline preload="none"></video>
+  <div class="vtext"><p class="loc" id="vloc"></p><h3 id="vtitle"></h3><p id="vdesc"></p><p class="demo">Illustrative AI-generated video</p></div>
+</div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

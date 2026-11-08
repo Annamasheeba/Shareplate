@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: shareplate
+    runtime: static
+    staticPublishPath: .
